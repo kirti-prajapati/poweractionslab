@@ -1,0 +1,11 @@
+<powerpagecomponent powerpagecomponentid="3f4baf8c-61ac-46ea-b626-67e9e7be6c26">
+  <content>{"source":"&lt;div class=\"container\"&gt;\r\n &lt;div class=\"page-heading\"&gt;\r\n  {% block breadcrumbs %}\r\n      {% include 'Breadcrumbs' %}\r\n    {% endblock %}\r\n  {% block title %}\r\n    {% include 'Page Header' %}\r\n  {% endblock %}\r\n &lt;/div&gt;\r\n &lt;div class=\"row\"&gt;\r\n  &lt;div class=\"col-md-8 col-xl-8 left-column\"&gt;\r\n   {% block main %}\r\n    {% include 'Page Copy' %}\r\n   {% endblock %}\r\n  &lt;/div&gt;\r\n  &lt;div class=\"col-md-4 col-xl-4 right-column\"&gt;\r\n   {% block aside %}{% endblock %}\r\n  &lt;/div&gt;\r\n &lt;/div&gt;\r\n&lt;/div&gt;"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Layout 2 Column Wide Left</name>
+  <powerpagecomponenttype>8</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>f27a7ac0-c583-4369-8ed9-0ae2e7958780</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

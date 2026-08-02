@@ -1,0 +1,17 @@
+<powerpagecomponent powerpagecomponentid="affa2cce-6836-41d6-8167-02ade90c2a6e">
+  <content>{"copy":"&lt;div class='row sectionBlockLayout text-start' style='min-height: auto; padding: 8px;'&gt;\r\n  &lt;div class='container' style='display: flex; flex-wrap: wrap;'&gt;\r\n    &lt;div class='col-lg-12 columnBlockLayout' style='padding: 16px; margin: 60px 0px;'&gt;&lt;/div&gt;\r\n  &lt;/div&gt;\r\n&lt;/div&gt;\r\n","displayorder":4,"enablerating":false,"enabletracking":false,"excludefromsearch":false,"hiddenfromsitemap":false,"isroot":true,"pagetemplateid":"79ffe014-3573-4e69-8855-d6c2b4c4babc","parentpageid":"d8fad13a-4eef-45ee-bf9e-49224d8d3aaf","partialurl":"search","publishingstateid":"cc3c941b-69bc-49f6-a0cc-51ca5f508a1c","sharedpageconfiguration":false,"summary":"&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Search</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>f27a7ac0-c583-4369-8ed9-0ae2e7958780</powerpagesiteid>
+  </powerpagesiteid>
+  <searchcontent>&lt;div class='row sectionBlockLayout text-start' style='min-height: auto; padding: 8px;'&gt;
+  &lt;div class='container' style='display: flex; flex-wrap: wrap;'&gt;
+    &lt;div class='col-lg-12 columnBlockLayout' style='padding: 16px; margin: 60px 0px;'&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+Search</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>
