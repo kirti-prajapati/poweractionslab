@@ -14,9 +14,9 @@ jobs:
       #You can specify the solution name here
       solution_name: Enterprise
       #Update your values here
-      BUILD_ENVIRONMENT_URL: ${{vars.BUILD_ENV_URL}}
-      PRODUCTION_ENVIRONMENT_URL: ${{vars.PROD_URL}}
-      CLIENT_ID: ${{vars.PPLAT_APP_ID}}
-      TENANT_ID: ${{vars.TENANT_ID}}      
+      BUILD_ENVIRONMENT_URL: 'https://spcdev.crm8.dynamics.com/'
+      PRODUCTION_ENVIRONMENT_URL: 'https://spcqa.crm8.dynamics.com/'
+      CLIENT_ID: '0b8572a0-ac5a-47b5-9eb7-513af0c4997d'
+      TENANT_ID: '7d523251-2503-4739-9e96-6ac5b8e1a745'    
     secrets:
       envSecret: ${{ secrets.POWERPLATFORMSPN }}
