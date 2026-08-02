@@ -81,11 +81,18 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="account" behavior="0" />
+      <RootComponent type="1" schemaName="contact" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
         <Required type="1" schemaName="account" displayName="Account" parentSchemaName="" solution="System (5.0)" />
         <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_externalidentity" displayName="External Identity" solution="PowerPages_RuntimeCore (1.0.2509.1)">
+          <package appName="Power Pages Core Package" version="1.1.2605.258">PowerPages_Core (1.1.2605.258)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
       </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="adx_invitation" displayName="Invitation" solution="PowerPages_RuntimeCore (1.0.2509.1)">
@@ -94,10 +101,50 @@
         <Dependent type="1" schemaName="account" displayName="Account" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="adx_invitation" displayName="Invitation" solution="PowerPages_RuntimeCore (1.0.2509.1)">
+          <package appName="Power Pages Core Package" version="1.1.2605.258">PowerPages_Core (1.1.2605.258)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_webformsession" displayName="Multistep Form Session" solution="PowerPages_RuntimeCore (1.0.2509.1)">
+          <package appName="Power Pages Core Package" version="1.1.2605.258">PowerPages_Core (1.1.2605.258)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="contact" displayName="Contact" parentSchemaName="" solution="msdynce_PortalPrivacyExtensions (9.2.10.0)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="powerpagessiteaifeedback" displayName="Power Pages Site AI Feedback" solution="PowerPages_RuntimeExtensions (1.1.2605.0)">
+          <package appName="Power Pages Core Package" version="1.1.2605.258">PowerPages_Core (1.1.2605.258)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="1" schemaName="powerpagesusermapping" displayName="PowerPagesUserMapping" solution="PowerPages_RuntimeExtensions (1.1.2605.0)">
           <package appName="Power Pages Core Package" version="1.1.2605.258">PowerPages_Core (1.1.2605.258)</package>
         </Required>
         <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="powerpagesusermapping" displayName="PowerPagesUserMapping" solution="PowerPages_RuntimeExtensions (1.1.2605.0)">
+          <package appName="Power Pages Core Package" version="1.1.2605.258">PowerPages_Core (1.1.2605.258)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msa_account_managingpartner" displayName="msa_account_managingpartner" parentSchemaName="account" parentDisplayName="Account" solution="PowerPages_RuntimeCoreDependencies (1.0.2305.1)">
+          <package appName="Power Pages Core Package" version="1.1.2605.258">PowerPages_Core (1.1.2605.258)</package>
+        </Required>
+        <Dependent type="10" schemaName="msa_account_managingpartner" displayName="msa_account_managingpartner" parentSchemaName="account" parentDisplayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="powerpagecomponent_mspp_webrole_account" displayName="powerpagecomponent_mspp_webrole_account" parentSchemaName="powerpagecomponent" parentDisplayName="Site Component" solution="PowerPages_RuntimeExtensions (1.1.2605.0)">
+          <package appName="Power Pages Core Package" version="1.1.2605.258">PowerPages_Core (1.1.2605.258)</package>
+        </Required>
+        <Dependent type="10" schemaName="powerpagecomponent_mspp_webrole_account" displayName="powerpagecomponent_mspp_webrole_account" parentSchemaName="powerpagecomponent" parentDisplayName="Site Component" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>
