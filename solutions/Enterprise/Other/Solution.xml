@@ -82,6 +82,7 @@
     <RootComponents>
       <RootComponent type="1" schemaName="account" behavior="0" />
       <RootComponent type="1" schemaName="contact" behavior="0" />
+      <RootComponent type="29" id="{e085667a-a28e-f111-8076-000d3ac9c108}" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
