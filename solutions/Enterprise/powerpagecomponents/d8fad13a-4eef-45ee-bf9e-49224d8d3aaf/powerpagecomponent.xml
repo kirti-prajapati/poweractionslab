@@ -1,0 +1,12 @@
+<powerpagecomponent powerpagecomponentid="d8fad13a-4eef-45ee-bf9e-49224d8d3aaf">
+  <content>{"displayorder":1,"enablerating":false,"enabletracking":false,"excludefromsearch":false,"feedbackpolicy":756150005,"hiddenfromsitemap":false,"isroot":true,"pagetemplateid":"0e0a5b14-d443-4632-8fa5-137d4855712c","partialurl":"/","publishingstateid":"cc3c941b-69bc-49f6-a0cc-51ca5f508a1c","sharedpageconfiguration":false,"title":"Home"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Home</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>f27a7ac0-c583-4369-8ed9-0ae2e7958780</powerpagesiteid>
+  </powerpagesiteid>
+  <searchcontent>HomeHome</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>
