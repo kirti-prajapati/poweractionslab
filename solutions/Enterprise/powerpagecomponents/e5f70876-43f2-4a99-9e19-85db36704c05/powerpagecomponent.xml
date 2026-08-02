@@ -1,0 +1,14 @@
+<powerpagecomponent powerpagecomponentid="e5f70876-43f2-4a99-9e19-85db36704c05">
+  <content>{"display_name":"Mobile Header","type":756150001,"value":"&lt;a href='~/'&gt;\r\n  {% if snippets['Logo URL'] %}&lt;img src='{{ snippets['Logo URL'] }}' alt='{{ snippets['Logo alt text'] }}' style='width: auto; height: 32px; margin: 0 10px;'&gt;{% endif %}\r\n  {% if snippets['Site name'] %}\r\n    &lt;h1 class='siteTitle custom-sitetitle'&gt;{{ snippets['Site name'] }}&lt;/h1&gt;\r\n  {% endif %}\r\n&lt;/a&gt;\r\n"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Mobile Header</name>
+  <powerpagecomponenttype>7</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>f27a7ac0-c583-4369-8ed9-0ae2e7958780</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>208d08d0-ec1d-464c-bcd9-552532be061c</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>
