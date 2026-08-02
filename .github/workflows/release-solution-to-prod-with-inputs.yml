@@ -81,6 +81,8 @@ jobs:
         solution-file: ${{ inputs.solution_outbound_folder}}/${{ inputs.solution_name }}.zip
         force-overwrite: true
         publish-changes: true
+        run-asynchronously: true
+        max-async-wait-time: 60
 
     - name: Export solution as managed
       uses: microsoft/powerplatform-actions/export-solution@v1.9.2
