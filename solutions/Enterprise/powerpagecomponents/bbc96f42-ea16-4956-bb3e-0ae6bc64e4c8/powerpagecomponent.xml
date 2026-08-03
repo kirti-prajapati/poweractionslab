@@ -1,0 +1,11 @@
+<powerpagecomponent powerpagecomponentid="bbc96f42-ea16-4956-bb3e-0ae6bc64e4c8">
+  <content>{"anonymoususersrole":false,"authenticatedusersrole":true}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Authenticated Users</name>
+  <powerpagecomponenttype>11</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>f27a7ac0-c583-4369-8ed9-0ae2e7958780</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>
